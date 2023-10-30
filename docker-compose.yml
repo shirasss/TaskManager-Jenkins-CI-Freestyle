@@ -3,7 +3,6 @@ services:
   app:
     container_name: node
     build:
-      context: ./nodejsApp
       dockerfile: Dockerfile
     image: node_image
     ports:
