@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const MONGODB_URI = 'mongodb://mongo:27017';
+const MONGODB_URI = 'mongodb://mongodb:27017';
 
 mongoose.connect(MONGODB_URI,{useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false })
   .then(() => {
